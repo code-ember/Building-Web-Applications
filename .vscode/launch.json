@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "name": "http://.app_api/database/db",
+            "request": "launch",
+            "url": "http://.app_api/database/db"
+        }
+    ]
+}
