@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 import { Router } from "@angular/router";
-import { TripDataService } from '../services/trip-data.service';
+import { TripDataService } from "../services/trip-data.service";
 
 @Component({
     selector: 'app-add-trip',
@@ -37,7 +37,7 @@ export class AddTripComponent implements OnInit {
         this.submitted = true;
         if(this.addForm.valid){
             this.tripService.addTrip(this.addForm.value)
-            .subscribe( data => {
+            .then( data => {
                 console.log(data);
                 this.router.navigate(['']);
             });

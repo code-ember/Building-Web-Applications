@@ -12,7 +12,7 @@ export const trips = [
 
     {
         "code": "DAWR210315",
-        "name": "Dawson’s Reef",
+        "name": "Dawson's Reef",
         "length": "4 nights / 5 days",
         "start": "2021-03-15T08:00:00Z",
         "resort": "Blue Lagoon, 4 stars",
@@ -23,7 +23,7 @@ export const trips = [
 
     {
         "code": "CLAR210621",
-        "name": "Claire’s Reef",
+        "name": "Claire's Reef",
         "length": "4 nights / 5 days",
         "start": "2021-06-21T08:00:00Z",
         "resort": "Coral Sands, 5 stars",
