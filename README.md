@@ -1,17 +1,13 @@
 # CS-465-Project
 
-- Architecture:
-1. Compare and contrast the types of frontend development you used in your full stack project, including Express HTML, JavaScript, and the single-page application (SPA).
-2. Why did the backend use a NoSQL MongoDB database?
+# Architecture:
+Express HTML, JavaScript, and a single-page application were all used in my full stack project that used the different types of frontend development. The frontend of the website used a combination of html and JavaScript. The JavaScript is used for the website routes, controllers, and models, along with the main application file, which exports the Express application. The SPAs are applications that operate only on a single page and that focuses on providing admin functions for easy website maintenance and updates. The Express pages function off the handlebar views and HTML pages. The backend used a NoSQL MongoDB database in order to hold some information about limited things, typically information about trip and user login details. The NoSQL does not rely on the schema, as it’s easier for users to store and modify data on.
 
-- Functionality:
-1. How is JSON different from Javascript and how does JSON tie together the frontend and backend development pieces?
-2. Provide instances in the full stack process when you refactored code to improve functionality and efficiencies, and name the benefits that come from reusable user interface (UI) components.
+# Functionality:
+The main difference between JSON and JavaScript is that JSON is mainly used for the purpose of storing data. JSON cannot include functions but, JavaScript objects can include functions. JavaScript objects can only be used in JavaScript however, JSON can be used by other programming languages. The JavaScript can convert JSON data because of their similar system. JSON data is what is used to transmit data from the backend of the server to the frontend. There are two main examples of the refactoring code in this project to improve the functionality were moving duplicated html code to components that could be called from each page by updating the pages to the dynamically load records from the database which will help to improve the functionality. The header and footer were made into partials for the Handlebars and could be called in a file to have them display.
 
-- Testing:
-1. Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. 
-2. Explain your understanding of methods, endpoints, and security in a full stack application.
+# Testing:
+The API endpoints in this application was used to validate the user and authorize the user to alter the information in the database. These endpoints are used in combination with certain data related methods, such as GET, POST, PUT, and DELETE. Applying security for these endpoints is essential, as if there are no protection unauthorized users would be able to make access of them and gain access to all the information held inside the database.
 
-- Reflection:
-1. How has this course helped you in reaching your professional goals? 
-2. What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?
+# Reflection:
+This course has helped me with professional development. By working a part time job and going to school, it has been hard to find the time for myself. But this class has really helped me understand what frontend and backend development really is. This course has helped me see the different directions I have when choosing a career field after school which is in two months. I think the biggest skill that I have developed in this class is having a better understanding on how many components of code really link together and build a finished product at the end.
