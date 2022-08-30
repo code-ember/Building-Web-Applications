@@ -1,5 +1,4 @@
 # CS-465-Project
-# Full Stack Development I
 
 # Architecture:
 Express HTML, JavaScript, and a single-page application were all used in my full stack project that used the different types of frontend development. The frontend of the website used a combination of html and JavaScript. The JavaScript is used for the website routes, controllers, and models, along with the main application file, which exports the Express application. The SPAs are applications that operate only on a single page and that focuses on providing admin functions for easy website maintenance and updates. The Express pages function off the handlebar views and HTML pages. The backend used a NoSQL MongoDB database in order to hold some information about limited things, typically information about trip and user login details. The NoSQL does not rely on the schema, as it’s easier for users to store and modify data on.
