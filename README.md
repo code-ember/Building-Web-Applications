@@ -1,4 +1,4 @@
-## Full Stack Development I: Building Modern Web Applications
+## Building Modern Web Applications
 
 ### Architecture:
 In this full stack project, I utilized Express HTML, JavaScript, and a single-page application (SPA) to showcase various aspects of frontend development. The frontend was built with a combination of HTML and JavaScript. JavaScript handled website routes, controllers, and models, and the main application file exported the Express application. The SPA, which operates solely on a single page, focuses on providing admin functions for easy website maintenance and updates. The Express pages utilize Handlebars views and HTML pages. The backend employed a NoSQL MongoDB database to store information such as trip details and user login data. NoSQL does not rely on a schema, making it easier for users to store and modify data.
